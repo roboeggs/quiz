@@ -1,0 +1,31 @@
+[
+    {
+      "title": "What does HTML stand for?",
+      "variants": [
+        "Hyperlinks and Text Markup Language",
+        "Home Tool Markup Language",
+        "Hyper Text Markup Language"
+      ],
+      "correct": 2
+    },
+    {
+      "title": "Who is making the Web standards?",
+      "variants": [
+        "The World Wide Web Consortium",
+        "Google",
+        "Microsoft",
+        "Mozilla"
+      ],
+      "correct": 0
+    },
+    {
+      "title": "Choose the correct HTML element for the largest heading:",
+      "variants": [
+        "<head> ",
+        "<heading>",
+        "<h1>",
+        "<h6>"
+      ],
+      "correct": 2
+    }
+]

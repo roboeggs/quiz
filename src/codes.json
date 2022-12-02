@@ -1,0 +1,76 @@
+[
+    {
+      "title": "<HTML/>",
+      "color": "red",
+      "text": [
+        {"blue": "<"}, {"bard" : "!DOCTYPE "},
+        {"red": "html"}, {"blue" : ">"}, {"br" : ""},
+        {"blue": "<"}, {"bard" : "html"}, {"blue" : ">"},
+        {"br" : ""}, {"blue": "<"}, {"bard" : "title"},
+        {"blue": "<"}, {"black": "HTML Quiz"}, 
+        {"blue": "<"}, {"bard" : "/title"}, {"blue" : ">"},
+        {"br" : ""}, {"blue": "<"}, {"bard" : "body"}, {"blue" : ">"},
+        {"br" : ""}, {"space": null}, {"blue": "<"}, {"bard" : "h1"},
+        {"blue" : ">"},  {"black": "Is it a heading?"}, {"blue": "<"},
+        {"bard" : "/h1"}, {"blue" : ">"}, {"br" : ""}, {"space": null},
+        {"blue" : "<"}, {"bard" : "p"}, {"blue" : ">"}, 
+        {"black" : "Is it a paragraph?"}, {"blue" : "<"}, {"bard" : "/p"}, {"blue" : ">"},
+        
+        {"br" : ""}, {"blue" : "<"}, {"bard" : "/body"}, {"blue" : ">"},
+        {"br" : ""}, {"blue" : "<"}, {"bard" : "/html"}, {"blue" : ">"}
+      ]
+    },
+    {
+      "title": "{CSS}",
+      "color": "yellow",
+      "text": [
+        {"bard": "body"}, {"black": " {"}, {"br" : null},
+        {"space": null}, {"red": "background-color"},
+        {"black": ": "}, {"blue" : "purpure"}, {"black": ";"},
+        {"br" : null}, {"black": " }"}, {"br" : null},{"br" : null},
+        {"bard": "h1"}, {"black": " {"}, {"br" : null}, {"space": null},
+        {"red": "color"}, {"black": ":"}, {"blue": " blue"}, {"black": ";"},
+        {"br" : null}, {"space": null}, {"red": "text-align"}, {"black": ":"},
+        {"blue": " right"}, {"black": ";"}, {"br" : null}, {"black": " }"},
+        {"br" : null}, {"bard": "p"}, {"black": " {"}, {"br" : null},
+        {"space": null}, {"red": "background-color"}, {"black": ":"},
+        {"blue": " Lato"}, {"black": ";"}, {"br" : null}, {"black": " }"}
+      ]
+    },
+    {
+      "title": "[JS]",
+      "color": "blue",
+      "text": [
+        {"blue": "<"}, {"bard" : "button"}, {"br" : null},
+        {"space": null}, {"red": "onclick=\""}, {"blue" : "myJS()"}, 
+        {"red": "\""}, {"blue" : ">"}, {"br" : ""}, {"space": null}, 
+        {"black" : "I’m button!"}, {"br" : ""}, 
+        {"blue": "<"}, {"bard" : "/button"},{"blue" : ">"}, {"br" : ""},
+        {"blue": "<"}, {"bard" : "script"}, {"blue" : ">"}, {"br" : ""},
+        {"br" : ""}, {"blue" : "function "}, {"black" : "myJS(){"}, {"br" : ""},
+        {"space": null}, {"black" : "x ="}, {"br" : null},
+        {"space": null}, {"black" : "document.getElementById(\""},
+        {"bard" : "demo"}, {"black" : "\""}, {"br" : ""}, {"black" : ");"},
+        {"br" : ""}, {"space": null}, {"black" : "x.style.fontSize = "},
+        {"black" : "\""}, {"red": "20px"}, {"black" : "\";"}, {"br" : null},
+        {"space": null}, {"black" : "x.style.color = "},
+        {"black" : "\""}, {"red": "green"}, {"black" : "\";"}, {"br" : null},
+        {"black" : "}"}, {"br" : null},{"blue": "<"}, {"bard" : "/script"},
+        {"blue" : ">"}
+      ]
+    },
+    {
+      "title": "(React)",
+      "color": "green",
+      "text": [
+        {"blue": "import "}, {"black": "React "}, {"blue": "from "}, {"black": "'react';"},
+        {"br" : null}, {"blue": "import "}, {"black": "ReactDOM "}, {"blue": "from"},
+        {"green": "'react-"}, {"br" : null}, {"green" : "dom/client'"}, {"black": ";"}, {"br" : null},
+        {"blue": "function "}, {"red": "Hello "}, {"black": "(props){"},
+        {"br" : null}, {"space": null}, {"blue": "return"}, {"br" : null}, {"black": "ReactDOM."},
+        {"red": "createRoot"}, {"black": "(document."}, {"br" : null}, {"red": "getElementById"},
+        {"black": ";"}, {"green": "'root'"},{"black": "));"}, {"br" : null},
+        {"black": "root."}, {"red": "render"}, {"black": "(<"}, {"red": "Hello "},  {"black": "/>);"}
+      ]
+    }
+]

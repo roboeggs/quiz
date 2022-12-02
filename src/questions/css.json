@@ -1,0 +1,30 @@
+[
+    {
+      "title": "What does CSS stand for?",
+      "variants": [
+        "Creative Style Sheets",
+        "Colorful Style Sheets",
+        "Cascading Style Sheets",
+        "Computer Style Sheets"
+      ],
+      "correct": 2
+    },
+    {
+      "title": "What is the correct HTML for referring to an external style sheet?",
+      "variants": [
+        "<stylesheet>mystyle.css</stylesheet>",
+        "<link rel=\"stylesheet\" type=\"text/css\" href=\"mystyle.css\"> ",
+        "<style src=\"mystyle.css\">"
+      ],
+      "correct": 1
+    },
+    {
+      "title": "Where in an HTML document is the correct place to refer to an external style sheet?",
+      "variants": [
+        "In the <body> section  ",
+        "At the end of the document",
+        "In the <head> section  "
+      ],
+      "correct": 2
+    }
+]

@@ -1,0 +1,32 @@
+.frame{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    min-height: 560px;
+    width: 955px;
+    border-radius: 50px;
+    background-color: #fff;
+    box-shadow: 0px 25px 4px rgba(0, 0, 0, 0.25), 0px 12px 4px rgba(255, 255, 255, 0.25);
+    @media screen and (max-width: 990px){
+      width: 565px;
+      min-height: 480px;
+    }
+    @media screen and (max-width: 600px){
+      width: calc(100% - 20px);
+      height: calc(100% - 40px);
+    } 
+  }
+  
+.frame__close{
+  background-image: url("./../../images/close.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  right: 31px;
+  top: 31px;
+  border: 0;
+  background-color: transparent;
+}

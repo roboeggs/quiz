@@ -1,0 +1,22 @@
+.page{
+  background-color: #9E26BC;
+  margin: 0;
+  transition: background-color 0.4s ease-in-out;
+}
+
+.page:active{
+  background-color: #752EEA;
+}
+
+.cursor{
+  cursor: pointer;
+}
+
+.animation{
+  opacity: 0.3;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.animation:hover{
+  opacity: 1;
+}

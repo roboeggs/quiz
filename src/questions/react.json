@@ -1,0 +1,41 @@
+[
+    {
+      "title": "What is the correct command to create a new React project?",
+      "variants": [
+        "npm create-react-app myReactApp",
+        "npx create-react-app",
+        "npx create-react-app myReactApp  ",
+        "npm create-react-app"
+      ],
+      "correct": 2
+    },
+    {
+      "title": "What command is used to start the React local development server?",
+      "variants": [
+        "npm build",
+        "npm run dev",
+        "npm start",
+        "npm serve"
+      ],
+      "correct": 2
+    },
+    {
+      "title": "What is the default local host port that a React development server uses?",
+      "variants": [
+        "8080",
+        "5000",
+        "3000",
+        "3500"
+      ],
+      "correct": 2
+    },
+    {
+      "title": "What is the correct syntax for referring to an external script called \"xxx.js\"?",
+      "variants": [
+        "<script src=\"xxx.js\">  n",
+        "<script name=\"xxx.js\">",
+        "<script href=\"xxx.js\">"
+      ],
+      "correct": 0
+    }
+]
