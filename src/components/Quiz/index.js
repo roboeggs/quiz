@@ -21,7 +21,6 @@ function Quiz({ percentage, question, onClickVariant, onClicBack }){
                 {percentage === 0 ? null :
                     (<img onClick={onClicBack} className={styles.content__arrow + ' cursor animation'} src={back} alt="Arrow back" />)
                 }
-                {/* <img className={styles.content__arrow + ' cursor animation'} src={forward} alt="Arrow forward" />   */}
             </nav>
         </div>
     );
